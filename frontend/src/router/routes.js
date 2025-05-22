@@ -23,6 +23,15 @@ export const routes = [
           icon: 'el-icon-coin'
         }
       },
+      {
+        path: 'calculator',
+        component: ()=>import('../views/calculator/index.vue'),
+        name: 'calculator',
+        meta: {
+          title: '计算器',
+          icon: 'el-icon-coin'
+        }
+      },
     ]
   },
 ]
